@@ -1,0 +1,4 @@
+#blocks
+tile.compressedCobblestone.name=Compressed Cobblestone
+tile.doubleCompressedCobblestone.name=2x Compressed Cobblestone
+itemGroup.cpd=Compressed
