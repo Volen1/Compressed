@@ -1,0 +1,16 @@
+[
+{
+  "modid": "cpm",
+  "name": "Compressed",
+  "description": "A mod used to compress just about anything, for easy storage.",
+  "version": "0.0.1",
+  "mcversion": "1.9.4",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["voleN"],
+  "credits": "Shadowfacts & McJty for awesome tutorials. and RWTema for the Compressed idea.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
