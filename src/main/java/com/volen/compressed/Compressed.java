@@ -3,7 +3,7 @@ package com.volen.compressed;
 import com.volen.compressed.block.ModBlocks;
 import com.volen.compressed.client.CompressedTab;
 import com.volen.compressed.proxy.CommonProxy;
-import net.minecraft.creativetab.CreativeTabs;
+import com.volen.compressed.recipe._Recipes;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -33,7 +33,7 @@ public class Compressed {
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-
+        _Recipes.init();
     }
 
     @Mod.EventHandler

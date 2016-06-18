@@ -1,4 +1,11 @@
-#blocks
+#Cobblestone
 tile.compressedCobblestone.name=Compressed Cobblestone
 tile.doubleCompressedCobblestone.name=2x Compressed Cobblestone
+tile.tripleCompressedCobblestone.name=3x Compressed Cobblestone
+tile.quadrupleCompressedCobblestone.name=4x Compressed Cobblestone
+
+
+
+
+#CreativeTab
 itemGroup.cpd=Compressed
