@@ -17,6 +17,16 @@ public class ModBlocks {
     public static BlockCompressed septupleCompressedCobblestone;
     public static BlockCompressed octupleCompressedCobblestone;
 
+    // Dirt
+    public static BlockCompressed compressedDirt;
+    public static BlockCompressed doubleCompressedDirt;
+    public static BlockCompressed tripleCompressedDirt;
+    public static BlockCompressed quadrupleCompressedDirt;
+    public static BlockCompressed quintupleCompressedDirt;
+    public static BlockCompressed sextupleCompressedDirt;
+    public static BlockCompressed septupleCompressedDirt;
+    public static BlockCompressed octupleCompressedDirt;
+
     public static void init() {
 
         // Cobblestone
@@ -28,6 +38,17 @@ public class ModBlocks {
         sextupleCompressedCobblestone = register(new BlockCompressed("sextupleCompressedCobblestone"));
         septupleCompressedCobblestone = register(new BlockCompressed("septupleCompressedCobblestone"));
         octupleCompressedCobblestone = register(new BlockCompressed("octupleCompressedCobblestone"));
+
+        // Dirt
+        compressedDirt = register(new BlockCompressed("compressedDirt"));
+        doubleCompressedDirt = register(new BlockCompressed("doubleCompressedDirt"));
+        tripleCompressedDirt = register(new BlockCompressed("tripleCompressedDirt"));
+        quadrupleCompressedDirt = register(new BlockCompressed("quadrupleCompressedDirt"));
+        quintupleCompressedDirt = register(new BlockCompressed("quintupleCompressedDirt"));
+        sextupleCompressedDirt = register(new BlockCompressed("sextupleCompressedDirt"));
+        septupleCompressedDirt = register(new BlockCompressed("septupleCompressedDirt"));
+        octupleCompressedDirt = register(new BlockCompressed("octupleCompressedDirt"));
+
     }
 
     private static <T extends Block> T register(T block, ItemBlock itemBlock) {

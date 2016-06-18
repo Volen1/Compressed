@@ -71,5 +71,69 @@ public class _Recipes {
 
 
 
+
+
+        // Dirt
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.compressedDirt), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), Blocks.DIRT
+        }));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.doubleCompressedDirt), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.compressedDirt
+        }));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.tripleCompressedDirt), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.doubleCompressedDirt
+        }));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.quadrupleCompressedDirt), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.tripleCompressedDirt
+        }));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.quintupleCompressedDirt), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.quadrupleCompressedDirt
+        }));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.sextupleCompressedDirt), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.quintupleCompressedDirt
+        }));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.septupleCompressedDirt), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.sextupleCompressedDirt
+        }));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.octupleCompressedDirt), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.septupleCompressedDirt
+        }));
+
+
+
+
+
+
     }
 }

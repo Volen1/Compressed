@@ -1,4 +1,5 @@
 #Cobblestone
+
 tile.compressedCobblestone.name=Compressed Cobblestone
 tile.doubleCompressedCobblestone.name=2x Compressed Cobblestone
 tile.tripleCompressedCobblestone.name=3x Compressed Cobblestone
@@ -7,6 +8,21 @@ tile.quintupleCompressedCobblestone.name=5x Compressed Cobblestone
 tile.sextupleCompressedCobblestone.name=6x Compressed Cobblestone
 tile.septupleCompressedCobblestone.name=7x Compressed Cobblestone
 tile.octupleCompressedCobblestone.name=8x Compressed Cobblestone
+
+#Dirt
+
+tile.compressedDirt.name=Compressed Dirt
+tile.doubleCompressedDirt.name=2x Compressed Dirt
+tile.tripleCompressedDirt.name=3x Compressed Dirt
+tile.quadrupleCompressedDirt.name=4x Compressed Dirt
+tile.quintupleCompressedDirt.name=5x Compressed Dirt
+tile.sextupleCompressedDirt.name=6x Compressed Dirt
+tile.septupleCompressedDirt.name=7x Compressed Dirt
+tile.octupleCompressedDirt.name=8x Compressed Dirt
+
+#Sand
+
+
 
 
 
