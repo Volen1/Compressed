@@ -3,6 +3,10 @@ tile.compressedCobblestone.name=Compressed Cobblestone
 tile.doubleCompressedCobblestone.name=2x Compressed Cobblestone
 tile.tripleCompressedCobblestone.name=3x Compressed Cobblestone
 tile.quadrupleCompressedCobblestone.name=4x Compressed Cobblestone
+tile.quintupleCompressedCobblestone.name=5x Compressed Cobblestone
+tile.sextupleCompressedCobblestone.name=6x Compressed Cobblestone
+tile.septupleCompressedCobblestone.name=7x Compressed Cobblestone
+tile.octupleCompressedCobblestone.name=8x Compressed Cobblestone
 
 
 

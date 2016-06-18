@@ -1,19 +1,24 @@
 package com.volen.compressed.client;
 
 import com.volen.compressed.Compressed;
-import net.minecraft.creativetab.*;
-import net.minecraft.init.Items;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 
 public class CompressedTab extends CreativeTabs {
 
     public CompressedTab() {
         super(Compressed.modId);
+        setBackgroundImageName("item_search.png");
+
     }
 
     @Override
     public Item getTabIconItem() {
-        return Items.FEATHER;
+        return Item.getItemFromBlock(Blocks.COBBLESTONE);
+
+
+
     }
 
     @Override
