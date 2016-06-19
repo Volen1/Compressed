@@ -21,6 +21,24 @@ tile.septupleCompressedDirt.name=7x Compressed Dirt
 tile.octupleCompressedDirt.name=8x Compressed Dirt
 
 #Sand
+tile.compressedSand.name=Compressed Sand
+tile.doubleCompressedSand.name=2x Compressed Sand
+tile.tripleCompressedSand.name=3x Compressed Sand
+tile.quadrupleCompressedSand.name=4x Compressed Sand
+tile.quintupleCompressedSand.name=5x Compressed Sand
+tile.sextupleCompressedSand.name=6x Compressed Sand
+tile.septupleCompressedSand.name=7x Compressed Sand
+tile.octupleCompressedSand.name=8x Compressed Sand
+
+#Gravel
+tile.compressedGravel.name=Compressed Gravel
+tile.doubleCompressedGravel.name=2x Compressed Gravel
+tile.tripleCompressedGravel.name=3x Compressed Gravel
+tile.quadrupleCompressedGravel.name=4x Compressed Gravel
+tile.quintupleCompressedGravel.name=5x Compressed Gravel
+tile.sextupleCompressedGravel.name=6x Compressed Gravel
+tile.septupleCompressedGravel.name=7x Compressed Gravel
+tile.octupleCompressedGravel.name=8x Compressed Gravel
 
 
 
