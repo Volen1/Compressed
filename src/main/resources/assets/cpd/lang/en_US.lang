@@ -40,6 +40,25 @@ tile.sextupleCompressedGravel.name=6x Compressed Gravel
 tile.septupleCompressedGravel.name=7x Compressed Gravel
 tile.octupleCompressedGravel.name=8x Compressed Gravel
 
+#Netherrack
+tile.compressedNetherrack.name=Compressed Netherrack
+tile.doubleCompressedNetherrack.name=2x Compressed Netherrack
+tile.tripleCompressedNetherrack.name=3x Compressed Netherrack
+tile.quadrupleCompressedNetherrack.name=4x Compressed Netherrack
+tile.quintupleCompressedNetherrack.name=5x Compressed Netherrack
+tile.sextupleCompressedNetherrack.name=6x Compressed Netherrack
+tile.septupleCompressedNetherrack.name=7x Compressed Netherrack
+tile.octupleCompressedNetherrack.name=8x Compressed Netherrack
+
+#Stone
+tile.compressedStone.name=Compressed Stone
+tile.doubleCompressedStone.name=2x Compressed Stone
+tile.tripleCompressedStone.name=3x Compressed Stone
+tile.quadrupleCompressedStone.name=4x Compressed Stone
+tile.quintupleCompressedStone.name=5x Compressed Stone
+tile.sextupleCompressedStone.name=6x Compressed Stone
+tile.septupleCompressedStone.name=7x Compressed Stone
+tile.octupleCompressedStone.name=8x Compressed Stone
 
 
 

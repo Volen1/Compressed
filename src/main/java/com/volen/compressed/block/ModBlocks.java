@@ -47,6 +47,26 @@ public class ModBlocks {
     public static BlockCompressed septupleCompressedGravel;
     public static BlockCompressed octupleCompressedGravel;
 
+    // Netherrack
+    public static BlockCompressed compressedNetherrack;
+    public static BlockCompressed doubleCompressedNetherrack;
+    public static BlockCompressed tripleCompressedNetherrack;
+    public static BlockCompressed quadrupleCompressedNetherrack;
+    public static BlockCompressed quintupleCompressedNetherrack;
+    public static BlockCompressed sextupleCompressedNetherrack;
+    public static BlockCompressed septupleCompressedNetherrack;
+    public static BlockCompressed octupleCompressedNetherrack;
+
+    // Stone
+    public static BlockCompressed compressedStone;
+    public static BlockCompressed doubleCompressedStone;
+    public static BlockCompressed tripleCompressedStone;
+    public static BlockCompressed quadrupleCompressedStone;
+    public static BlockCompressed quintupleCompressedStone;
+    public static BlockCompressed sextupleCompressedStone;
+    public static BlockCompressed septupleCompressedStone;
+    public static BlockCompressed octupleCompressedStone;
+
 
     public static void init() {
 
@@ -89,6 +109,26 @@ public class ModBlocks {
         sextupleCompressedGravel = register(new BlockCompressed("sextupleCompressedGravel"));
         septupleCompressedGravel = register(new BlockCompressed("septupleCompressedGravel"));
         octupleCompressedGravel = register(new BlockCompressed("octupleCompressedGravel"));
+
+        // Netherack
+        compressedNetherrack = register(new BlockCompressed("compressedNetherrack"));
+        doubleCompressedNetherrack = register(new BlockCompressed("doubleCompressedNetherrack"));
+        tripleCompressedNetherrack = register(new BlockCompressed("tripleCompressedNetherrack"));
+        quadrupleCompressedNetherrack = register(new BlockCompressed("quadrupleCompressedNetherrack"));
+        quintupleCompressedNetherrack = register(new BlockCompressed("quintupleCompressedNetherrack"));
+        sextupleCompressedNetherrack = register(new BlockCompressed("sextupleCompressedNetherrack"));
+        septupleCompressedNetherrack = register(new BlockCompressed("septupleCompressedNetherrack"));
+        octupleCompressedNetherrack = register(new BlockCompressed("octupleCompressedNetherrack"));
+
+        // Stone
+        compressedStone = register(new BlockCompressed("compressedStone"));
+        doubleCompressedStone = register(new BlockCompressed("doubleCompressedStone"));
+        tripleCompressedStone = register(new BlockCompressed("tripleCompressedStone"));
+        quadrupleCompressedStone = register(new BlockCompressed("quadrupleCompressedStone"));
+        quintupleCompressedStone = register(new BlockCompressed("quintupleCompressedStone"));
+        sextupleCompressedStone = register(new BlockCompressed("sextupleCompressedStone"));
+        septupleCompressedStone = register(new BlockCompressed("septupleCompressedStone"));
+        octupleCompressedStone = register(new BlockCompressed("octupleCompressedStone"));
 
 
     }

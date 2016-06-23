@@ -86,7 +86,7 @@ public class _Recipes {
 
 
 
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -165,7 +165,7 @@ public class _Recipes {
 
 
 
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -244,6 +244,8 @@ public class _Recipes {
 
 
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 
 
@@ -252,7 +254,7 @@ public class _Recipes {
                 "xxx",
                 "xxx",
                 "xxx",
-                Character.valueOf('x'), Blocks.GRAVEL
+                Character.valueOf('x'), Blocks.STONE
         }));
 
         GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Blocks.GRAVEL, 9), new ItemStack(ModBlocks.compressedGravel)));
@@ -319,6 +321,166 @@ public class _Recipes {
         }));
 
         GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.septupleCompressedGravel, 9), new ItemStack(ModBlocks.octupleCompressedGravel)));
+
+
+
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+        // Stone
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.compressedStone), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), Blocks.STONE
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Blocks.STONE, 9), new ItemStack(ModBlocks.compressedStone)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.doubleCompressedStone), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.compressedStone
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.compressedStone, 9), new ItemStack(ModBlocks.doubleCompressedStone)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.tripleCompressedStone), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.doubleCompressedStone
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.doubleCompressedStone, 9), new ItemStack(ModBlocks.tripleCompressedStone)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.quadrupleCompressedStone), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.tripleCompressedStone
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.tripleCompressedStone, 9), new ItemStack(ModBlocks.quadrupleCompressedStone)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.quintupleCompressedStone), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.quadrupleCompressedStone
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.quadrupleCompressedStone, 9), new ItemStack(ModBlocks.quintupleCompressedStone)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.sextupleCompressedStone), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.quintupleCompressedStone
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.quintupleCompressedStone, 9), new ItemStack(ModBlocks.sextupleCompressedStone)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.septupleCompressedStone), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.sextupleCompressedStone
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.sextupleCompressedStone, 9), new ItemStack(ModBlocks.septupleCompressedStone)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.octupleCompressedStone), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.septupleCompressedStone
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.septupleCompressedStone, 9), new ItemStack(ModBlocks.octupleCompressedStone)));
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+        // Netherrack
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.compressedNetherrack), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), Blocks.NETHERRACK
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Blocks.NETHERRACK, 9), new ItemStack(ModBlocks.compressedNetherrack)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.doubleCompressedNetherrack), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.compressedNetherrack
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.compressedNetherrack, 9), new ItemStack(ModBlocks.doubleCompressedNetherrack)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.tripleCompressedNetherrack), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.doubleCompressedNetherrack
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.doubleCompressedNetherrack, 9), new ItemStack(ModBlocks.tripleCompressedNetherrack)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.quadrupleCompressedNetherrack), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.tripleCompressedNetherrack
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.tripleCompressedNetherrack, 9), new ItemStack(ModBlocks.quadrupleCompressedNetherrack)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.quintupleCompressedNetherrack), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.quadrupleCompressedNetherrack
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.quadrupleCompressedNetherrack, 9), new ItemStack(ModBlocks.quintupleCompressedNetherrack)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.sextupleCompressedNetherrack), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.quintupleCompressedNetherrack
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.quintupleCompressedNetherrack, 9), new ItemStack(ModBlocks.sextupleCompressedNetherrack)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.septupleCompressedNetherrack), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.sextupleCompressedNetherrack
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.sextupleCompressedNetherrack, 9), new ItemStack(ModBlocks.septupleCompressedNetherrack)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.octupleCompressedNetherrack), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.septupleCompressedNetherrack
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.septupleCompressedNetherrack, 9), new ItemStack(ModBlocks.octupleCompressedNetherrack)));
+
+
 
 
 
