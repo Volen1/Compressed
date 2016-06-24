@@ -1,11 +1,18 @@
 package com.volen.compressed.block;
 
+import com.volen.compressed.compat.top.TOPInfoProvider;
 import com.volen.compressed.item.ItemModelProvider;
+import mcjty.theoneprobe.api.IProbeHitData;
+import mcjty.theoneprobe.api.IProbeInfo;
+import mcjty.theoneprobe.api.ProbeMode;
 import net.minecraft.block.Block;
+import net.minecraft.block.state.IBlockState;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.world.World;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
-public class ModBlocks {
+public class ModBlocks implements TOPInfoProvider {
 
     // Cobblestone
     public static BlockCompressed compressedCobblestone;
@@ -66,6 +73,26 @@ public class ModBlocks {
     public static BlockCompressed sextupleCompressedStone;
     public static BlockCompressed septupleCompressedStone;
     public static BlockCompressed octupleCompressedStone;
+
+    // Andesite
+    public static BlockCompressed compressedAndesite;
+    public static BlockCompressed doubleCompressedAndesite;
+    public static BlockCompressed tripleCompressedAndesite;
+    public static BlockCompressed quadrupleCompressedAndesite;
+    public static BlockCompressed quintupleCompressedAndesite;
+    public static BlockCompressed sextupleCompressedAndesite;
+    public static BlockCompressed septupleCompressedAndesite;
+    public static BlockCompressed octupleCompressedAndesite;
+
+    // Granite
+    public static BlockCompressed compressedGranite;
+    public static BlockCompressed doubleCompressedGranite;
+    public static BlockCompressed tripleCompressedGranite;
+    public static BlockCompressed quadrupleCompressedGranite;
+    public static BlockCompressed quintupleCompressedGranite;
+    public static BlockCompressed sextupleCompressedGranite;
+    public static BlockCompressed septupleCompressedGranite;
+    public static BlockCompressed octupleCompressedGranite;
 
 
     public static void init() {
@@ -130,6 +157,26 @@ public class ModBlocks {
         septupleCompressedStone = register(new BlockCompressed("septupleCompressedStone"));
         octupleCompressedStone = register(new BlockCompressed("octupleCompressedStone"));
 
+        // Andesite
+        compressedAndesite = register(new BlockCompressed("compressedAndesite"));
+        doubleCompressedAndesite = register(new BlockCompressed("doubleCompressedAndesite"));
+        tripleCompressedAndesite = register(new BlockCompressed("tripleCompressedAndesite"));
+        quadrupleCompressedAndesite = register(new BlockCompressed("quadrupleCompressedAndesite"));
+        quintupleCompressedAndesite = register(new BlockCompressed("quintupleCompressedAndesite"));
+        sextupleCompressedAndesite = register(new BlockCompressed("sextupleCompressedAndesite"));
+        septupleCompressedAndesite = register(new BlockCompressed("septupleCompressedAndesite"));
+        octupleCompressedAndesite = register(new BlockCompressed("octupleCompressedAndesite"));
+
+        // Granite
+        compressedGranite = register(new BlockCompressed("compressedGranite"));
+        doubleCompressedGranite = register(new BlockCompressed("doubleCompressedGranite"));
+        tripleCompressedGranite = register(new BlockCompressed("tripleCompressedGranite"));
+        quadrupleCompressedGranite= register(new BlockCompressed("quadrupleCompressedGranite"));
+        quintupleCompressedGranite = register(new BlockCompressed("quintupleCompressedGranite"));
+        sextupleCompressedGranite = register(new BlockCompressed("sextupleCompressedGranite"));
+        septupleCompressedGranite = register(new BlockCompressed("septupleCompressedGranite"));
+        octupleCompressedGranite = register(new BlockCompressed("octupleCompressedGranite"));
+
 
     }
 
@@ -150,5 +197,9 @@ public class ModBlocks {
         ItemBlock itemBlock = new ItemBlock(block);
         itemBlock.setRegistryName(block.getRegistryName());
         return register(block, itemBlock);
+    }
+
+    @Override
+    public void addProbeInfo(ProbeMode mode, IProbeInfo probeInfo, EntityPlayer player, World world, IBlockState blockState, IProbeHitData data) {
     }
 }

@@ -9,6 +9,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import org.apache.logging.log4j.Logger;
 
 @Mod(modid = Compressed.modId, name = Compressed.name, version = Compressed.version, acceptedMinecraftVersions = "[1.9.4]", dependencies = "required-after:Forge@[12.17.0.1960,)" )
 
@@ -24,6 +25,7 @@ public class Compressed {
     @Mod.Instance(modId)
     public static Compressed instance;
     public static final CompressedTab creativeTab = new CompressedTab();
+    public static Logger logger;
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {

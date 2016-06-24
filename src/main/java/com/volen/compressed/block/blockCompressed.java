@@ -1,7 +1,9 @@
 package com.volen.compressed.block;
 
+
 import net.minecraft.block.material.*;
 import net.minecraft.creativetab.*;
+
 
 public class BlockCompressed extends BlockBase {
 

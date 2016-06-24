@@ -3,6 +3,7 @@ package com.volen.compressed.recipe;
 import com.volen.compressed.block.ModBlocks;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 import net.minecraftforge.oredict.ShapelessOreRecipe;
@@ -254,7 +255,7 @@ public class _Recipes {
                 "xxx",
                 "xxx",
                 "xxx",
-                Character.valueOf('x'), Blocks.STONE
+                Character.valueOf('x'), Blocks.GRAVEL
         }));
 
         GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Blocks.GRAVEL, 9), new ItemStack(ModBlocks.compressedGravel)));
@@ -335,7 +336,7 @@ public class _Recipes {
                 "xxx",
                 "xxx",
                 "xxx",
-                Character.valueOf('x'), Blocks.STONE
+                Character.valueOf('x'), new ItemStack(Blocks.STONE, 0, 0)
         }));
 
         GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Blocks.STONE, 9), new ItemStack(ModBlocks.compressedStone)));
@@ -481,6 +482,159 @@ public class _Recipes {
         GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.septupleCompressedNetherrack, 9), new ItemStack(ModBlocks.octupleCompressedNetherrack)));
 
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+        // Andesite
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.compressedAndesite), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), new ItemStack(Blocks.STONE, 0, 5)
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Blocks.STONE, 9, 5), new ItemStack(ModBlocks.compressedAndesite)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.doubleCompressedAndesite), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.compressedAndesite
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.compressedAndesite, 9), new ItemStack(ModBlocks.doubleCompressedAndesite)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.tripleCompressedAndesite), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.doubleCompressedAndesite
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.doubleCompressedAndesite, 9), new ItemStack(ModBlocks.tripleCompressedAndesite)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.quadrupleCompressedAndesite), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.tripleCompressedAndesite
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.tripleCompressedAndesite, 9), new ItemStack(ModBlocks.quadrupleCompressedAndesite)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.quintupleCompressedAndesite), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.quadrupleCompressedAndesite
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.quadrupleCompressedAndesite, 9), new ItemStack(ModBlocks.quintupleCompressedAndesite)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.sextupleCompressedAndesite), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.quintupleCompressedAndesite
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.quintupleCompressedAndesite, 9), new ItemStack(ModBlocks.sextupleCompressedAndesite)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.septupleCompressedAndesite), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.sextupleCompressedAndesite
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.sextupleCompressedAndesite, 9), new ItemStack(ModBlocks.septupleCompressedAndesite)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.octupleCompressedAndesite), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.septupleCompressedAndesite
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.septupleCompressedAndesite, 9), new ItemStack(ModBlocks.octupleCompressedAndesite)));
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+        // Granite
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.compressedGranite), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), new ItemStack(Blocks.STONE, 0, 3)
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Blocks.STONE, 9, 3), new ItemStack(ModBlocks.compressedGranite)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.doubleCompressedGranite), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.compressedGranite
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.compressedGranite, 9), new ItemStack(ModBlocks.doubleCompressedGranite)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.tripleCompressedGranite), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.doubleCompressedGranite
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.doubleCompressedGranite, 9), new ItemStack(ModBlocks.tripleCompressedGranite)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.quadrupleCompressedGranite), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.tripleCompressedGranite
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.tripleCompressedGranite, 9), new ItemStack(ModBlocks.quadrupleCompressedGranite)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.quintupleCompressedGranite), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.quadrupleCompressedGranite
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.quadrupleCompressedGranite, 9), new ItemStack(ModBlocks.quintupleCompressedGranite)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.sextupleCompressedGranite), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.quintupleCompressedGranite
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.quintupleCompressedGranite, 9), new ItemStack(ModBlocks.sextupleCompressedGranite)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.septupleCompressedGranite), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.sextupleCompressedGranite
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.sextupleCompressedGranite, 9), new ItemStack(ModBlocks.septupleCompressedGranite)));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.octupleCompressedGranite), new Object[] {
+                "xxx",
+                "xxx",
+                "xxx",
+                Character.valueOf('x'), ModBlocks.septupleCompressedGranite
+        }));
+
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.septupleCompressedGranite, 9), new ItemStack(ModBlocks.octupleCompressedGranite)));
 
 
 

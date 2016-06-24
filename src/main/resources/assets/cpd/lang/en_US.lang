@@ -60,6 +60,26 @@ tile.sextupleCompressedStone.name=6x Compressed Stone
 tile.septupleCompressedStone.name=7x Compressed Stone
 tile.octupleCompressedStone.name=8x Compressed Stone
 
+#Andesite
+tile.compressedAndesite.name=Compressed Andesite
+tile.doubleCompressedAndesite.name=2x Compressed Andesite
+tile.tripleCompressedAndesite.name=3x Compressed Andesite
+tile.quadrupleCompressedAndesite.name=4x Compressed Andesite
+tile.quintupleCompressedAndesite.name=5x Compressed Andesite
+tile.sextupleCompressedAndesite.name=6x Compressed Andesite
+tile.septupleCompressedAndesite.name=7x Compressed Andesite
+tile.octupleCompressedAndesite.name=8x Compressed Andesite
+
+#Granite
+tile.compressedGranite.name=Compressed Granite
+tile.doubleCompressedGranite.name=2x Compressed Granite
+tile.tripleCompressedGranite.name=3x Compressed Granite
+tile.quadrupleCompressedGranite.name=4x Compressed Granite
+tile.quintupleCompressedGranite.name=5x Compressed Granite
+tile.sextupleCompressedGranite.name=6x Compressed Granite
+tile.septupleCompressedGranite.name=7x Compressed Granite
+tile.octupleCompressedGranite.name=8x Compressed Granite
+
 
 
 
