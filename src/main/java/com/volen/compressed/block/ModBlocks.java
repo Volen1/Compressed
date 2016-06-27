@@ -94,6 +94,16 @@ public class ModBlocks implements TOPInfoProvider {
     public static BlockCompressed septupleCompressedGranite;
     public static BlockCompressed octupleCompressedGranite;
 
+    // Diorite
+    public static BlockCompressed compressedDiorite;
+    public static BlockCompressed doubleCompressedDiorite;
+    public static BlockCompressed tripleCompressedDiorite;
+    public static BlockCompressed quadrupleCompressedDiorite;
+    public static BlockCompressed quintupleCompressedDiorite;
+    public static BlockCompressed sextupleCompressedDiorite;
+    public static BlockCompressed septupleCompressedDiorite;
+    public static BlockCompressed octupleCompressedDiorite;
+
 
     public static void init() {
 
@@ -176,6 +186,16 @@ public class ModBlocks implements TOPInfoProvider {
         sextupleCompressedGranite = register(new BlockCompressed("sextupleCompressedGranite"));
         septupleCompressedGranite = register(new BlockCompressed("septupleCompressedGranite"));
         octupleCompressedGranite = register(new BlockCompressed("octupleCompressedGranite"));
+
+        // Diorite
+        compressedDiorite = register(new BlockCompressed("compressedDiorite"));
+        doubleCompressedDiorite = register(new BlockCompressed("doubleCompressedDiorite"));
+        tripleCompressedDiorite = register(new BlockCompressed("tripleCompressedDiorite"));
+        quadrupleCompressedDiorite= register(new BlockCompressed("quadrupleCompressedDiorite"));
+        quintupleCompressedDiorite = register(new BlockCompressed("quintupleCompressedDiorite"));
+        sextupleCompressedDiorite = register(new BlockCompressed("sextupleCompressedDiorite"));
+        septupleCompressedDiorite = register(new BlockCompressed("septupleCompressedDiorite"));
+        octupleCompressedDiorite = register(new BlockCompressed("octupleCompressedDiorite"));
 
 
     }

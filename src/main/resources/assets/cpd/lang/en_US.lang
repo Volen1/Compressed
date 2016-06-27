@@ -80,6 +80,17 @@ tile.sextupleCompressedGranite.name=6x Compressed Granite
 tile.septupleCompressedGranite.name=7x Compressed Granite
 tile.octupleCompressedGranite.name=8x Compressed Granite
 
+#Diorite
+tile.compressedDiorite.name=Compressed Diorite
+tile.doubleCompressedDiorite.name=2x Compressed Diorite
+tile.tripleCompressedDiorite.name=3x Compressed Diorite
+tile.quadrupleCompressedDiorite.name=4x Compressed Diorite
+tile.quintupleCompressedDiorite.name=5x Compressed Diorite
+tile.sextupleCompressedDiorite.name=6x Compressed Diorite
+tile.septupleCompressedDiorite.name=7x Compressed Diorite
+tile.octupleCompressedDiorite.name=8x Compressed Diorite
+
+
 
 
 
