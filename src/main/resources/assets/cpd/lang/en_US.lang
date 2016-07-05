@@ -90,6 +90,25 @@ tile.sextupleCompressedDiorite.name=6x Compressed Diorite
 tile.septupleCompressedDiorite.name=7x Compressed Diorite
 tile.octupleCompressedDiorite.name=8x Compressed Diorite
 
+#RedSand
+tile.compressedRedSand.name=Compressed Red Sand
+tile.doubleCompressedRedSand.name=2x Compressed Red Sand
+tile.tripleCompressedRedSand.name=3x Compressed Red Sand
+tile.quadrupleCompressedRedSand.name=4x Compressed Red Sand
+tile.quintupleCompressedRedSand.name=5x Compressed Red Sand
+tile.sextupleCompressedRedSand.name=6x Compressed Red Sand
+tile.septupleCompressedRedSand.name=7x Compressed Red Sand
+tile.octupleCompressedRedSand.name=8x Compressed Red Sand
+
+#EndStone
+tile.compressedEndStone.name=Compressed End Stone
+tile.doubleCompressedEndStone.name=2x Compressed End Stone
+tile.tripleCompressedEndStone.name=3x Compressed End Stone
+tile.quadrupleCompressedEndStone.name=4x Compressed End Stone
+tile.quintupleCompressedEndStone.name=5x Compressed End Stone
+tile.sextupleCompressedEndStone.name=6x Compressed End Stone
+tile.septupleCompressedEndStone.name=7x Compressed End Stone
+tile.octupleCompressedEndStone.name=8x Compressed End Stone
 
 
 

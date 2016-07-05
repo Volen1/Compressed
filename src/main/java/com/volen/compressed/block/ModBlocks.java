@@ -104,6 +104,26 @@ public class ModBlocks implements TOPInfoProvider {
     public static BlockCompressed septupleCompressedDiorite;
     public static BlockCompressed octupleCompressedDiorite;
 
+    // RedSand
+    public static BlockCompressed compressedRedSand;
+    public static BlockCompressed doubleCompressedRedSand;
+    public static BlockCompressed tripleCompressedRedSand;
+    public static BlockCompressed quadrupleCompressedRedSand;
+    public static BlockCompressed quintupleCompressedRedSand;
+    public static BlockCompressed sextupleCompressedRedSand;
+    public static BlockCompressed septupleCompressedRedSand;
+    public static BlockCompressed octupleCompressedRedSand;
+
+    // EndStone
+    public static BlockCompressed compressedEndStone;
+    public static BlockCompressed doubleCompressedEndStone;
+    public static BlockCompressed tripleCompressedEndStone;
+    public static BlockCompressed quadrupleCompressedEndStone;
+    public static BlockCompressed quintupleCompressedEndStone;
+    public static BlockCompressed sextupleCompressedEndStone;
+    public static BlockCompressed septupleCompressedEndStone;
+    public static BlockCompressed octupleCompressedEndStone;
+
 
     public static void init() {
 
@@ -196,6 +216,26 @@ public class ModBlocks implements TOPInfoProvider {
         sextupleCompressedDiorite = register(new BlockCompressed("sextupleCompressedDiorite"));
         septupleCompressedDiorite = register(new BlockCompressed("septupleCompressedDiorite"));
         octupleCompressedDiorite = register(new BlockCompressed("octupleCompressedDiorite"));
+
+        // RedSand
+        compressedRedSand = register(new BlockCompressed("compressedRedSand"));
+        doubleCompressedRedSand = register(new BlockCompressed("doubleCompressedRedSand"));
+        tripleCompressedRedSand = register(new BlockCompressed("tripleCompressedRedSand"));
+        quadrupleCompressedRedSand= register(new BlockCompressed("quadrupleCompressedRedSand"));
+        quintupleCompressedRedSand = register(new BlockCompressed("quintupleCompressedRedSand"));
+        sextupleCompressedRedSand = register(new BlockCompressed("sextupleCompressedRedSand"));
+        septupleCompressedRedSand = register(new BlockCompressed("septupleCompressedRedSand"));
+        octupleCompressedRedSand = register(new BlockCompressed("octupleCompressedRedSand"));
+
+        // EndStone
+        compressedEndStone = register(new BlockCompressed("compressedEndStone"));
+        doubleCompressedEndStone= register(new BlockCompressed("doubleCompressedEndStone"));
+        tripleCompressedEndStone = register(new BlockCompressed("tripleCompressedEndStone"));
+        quadrupleCompressedEndStone = register(new BlockCompressed("quadrupleCompressedEndStone"));
+        quintupleCompressedEndStone= register(new BlockCompressed("quintupleCompressedEndStone"));
+        sextupleCompressedEndStone = register(new BlockCompressed("sextupleCompressedEndStone"));
+        septupleCompressedEndStone = register(new BlockCompressed("septupleCompressedEndStone"));
+        octupleCompressedEndStone = register(new BlockCompressed("octupleCompressedEndStone"));
 
 
     }
